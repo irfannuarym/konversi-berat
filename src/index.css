@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f0f2f5;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app.dark {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.theme-toggle {
+  text-align: center;
+  padding: 16px;
+}
+
+.theme-toggle button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.theme-toggle button:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.app.dark .container {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+input, select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input {
+  width: 95%;
+}
+
+.app.dark input,
+.app.dark select {
+  background-color: #3b3b3b;
+  color: white;
+  border-color: #555;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result, .history {
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.history-item {
+  font-size: 14px;
+  color: inherit;
+  margin-top: 4px;
+  border-top: 1px solid #eee;
+  padding-top: 4px;
+}
+
+.clear-btn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  background-color: #c82333;
+}
