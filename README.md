@@ -21,5 +21,30 @@ Includes a clean user interface, conversion history, and a toggleable **dark/lig
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/weight-unit-converter.git
-cd weight-unit-converter
+git clone https://github.com/irfannuarym/konversi-berat
+cd konversi-berat
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+### 4. Build for production
+
+```bash
+npm run build
+```
+
+### 5. Preview production build
+
+```bash
+npm run preview
+```
